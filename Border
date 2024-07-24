@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Margin</title>
+    <style>
+        h2{
+           
+            border-style: solid;
+        
+            margin-top: 50px;
+            margin-left: 30%;
+            background-color: green;
+            padding: auto;
+            
+            margin-right:500px;
+            border-color: crimson;
+            border-radius: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+</body>
+</html>
