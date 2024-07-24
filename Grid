@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Grid</title>
+   <style>
+    .container{
+        display: grid;
+        margin-left: 200px;
+        margin-right: 200px;
+        grid-template-columns: 3 3;
+        padding-top: 200px;
+        
+
+      }
+           .row1{
+            display: grid;
+            background-color: burlywood;
+            grid-column-start: span 3;
+            text-align: center;
+            border-style: solid;
+           }
+           .row2
+           {
+                  display: grid;
+                  background-color: gray;
+                  grid-row-start: span 2;
+                  text-align: center;
+                  padding-top: 5px;
+                  border-style: solid;
+                  
+           }
+           .row3
+           {
+            display: grid;
+            background-color:darkcyan;
+            text-align: center;
+            border-style: solid;
+           }
+           .row4
+           {
+            display: grid;
+            background-color: darksalmon;
+            text-align: center;
+            border-style: solid;
+           }
+           .row5
+           {
+            background-color:lightgreen;
+            grid-column-start: span 2;
+            text-align: center;
+            border-style: solid;
+           }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row1">1</div>
+        <div class="row2">2</div>
+        <div class="row3">3</div>
+        <div class="row4">4</div>
+        <div class="row5">5</div>
+        
+    </div>
+</body>
+</html>
