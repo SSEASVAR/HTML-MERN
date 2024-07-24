@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style>
+        body
+        {
+            background-color: blueviolet;
+        }
+        form{
+            background-color: aqua;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding-top: 200px;
+            text-align: center;
+
+        }
+    </style>
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        Name<input type="text"><br><br>
+        DoB<input type="date"><br><br>
+        Age<input type="number">
+    </form>
+    
+</body>
+</html>
