@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>ECE WEBSITE</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        form
+        {
+            text-align: center;
+            border-style: solid;
+            margin-top: 100px;
+            margin-left: 200px;
+            margin-right: 200px;
+            margin-bottom: 100px;
+        
+            padding: auto;
+            padding-bottom: 2%;
+            background-color: rgba(192, 192, 192, 0.793);
+            
+
+          
+        
+    }
+    body{
+        
+        background-image: url(https://4kwallpapers.com/images/wallpapers/tom-jerry-cartoon-3840x2160-12447.jpg);
+        background-size: cover;
+        
+    } 
+        
+    </style>
+    
+</head>
+<body >
+    
+    
+    <form>
+        <h1>Slam Book</h1>
+        <label for="name">Name:</label>
+        <input type="text" name="Name" id="name"><br><br>
+        <label for="DOB">Date of Birth:</label>
+        <input type="date" name="" id="DOB"><br><br>
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="Male" id="Gender">Male <input type="radio" name="Male" id="">Female<br><br>
+        <label for="Subject">Subject:</label>
+        <input type="checkbox" name="" id="Subject">ECE <input type="checkbox" name="" id="">CSE <input type="checkbox" name="AIDS" id="">AIDS <br><br>
+        Address<textarea name="" id="" cols="20" rows="20"></textarea><br><br>  
+        <input type="submit" value="Submit"><br>
+    </form>
+    <ol>
+        <li>Fruits
+        <ul>   
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+        </ul>
+        </li>
+        <li>Vegetables
+            <ul type="circle">
+                <li>Beetroot</li>
+                <li>Brinjal </li>
+                <li>Carrot</li>
+            </ul>
+        </li>
+        <li>Languages
+            <ol type="i">
+                <li>c</li>
+                <li>c++</li>
+                <li>java</li>
+                <li>python</li>
+            </ol>
+        </li>
+        <li>FrontEnd
+            <ol type="I">
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>JS</li>
+            </ol>
+        </li>
+    </ol>
+    <dl>
+        <dt>Apple</dt>
+        <dd>-This is a fruit
+
+            
+        </dd>
+    </dl>
+</body>
+</html>
