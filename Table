@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Table</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sl No</th>
+            <th>Name</th>
+            <th>DOB</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Abhinav</td>
+            <td>2-4-1999</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Bennet</td>
+            <td>4-2-2000</td>
+            <td>19</td>
+        </tr>
+    </table>
+</body>
+</html>
