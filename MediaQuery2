@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query2</title>
+    <style>
+        body{
+            background-color: aqua;
+            font-size: medium;
+            color: darkblue;
+            float: none;
+
+        }
+        @media screen and (min-width:600px)
+        {
+            .cont
+            {
+                display:flex
+            }
+        }
+        
+    </style>
+</head>
+<body class="cont">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvZGVM1IR7pOBNsiS1vVGnHLKyhMCtFItfVQ&s" alt="">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, itaque doloribus libero suscipit atque, earum fuga assumenda quidem rem cumque dignissimos error pariatur nam facere perferendis placeat praesentium repellendus. Eligendi totam consectetur repellendus tenetur. Officiis labore nemo, assumenda totam molestias deserunt, similique, explicabo ipsam nulla sint ut minus corrupti. Eos, culpa! Quas ipsam et a quisquam quibusdam incidunt ullam consequuntur repudiandae inventore odio labore sint, itaque sapiente in earum ratione? Saepe, nesciunt quisquam rem veniam asperiores corporis, consequuntur cupiditate et provident soluta pariatur, illum minima voluptates ipsa sequi quam earum! Repellat architecto ad magnam fuga consectetur nisi officiis cupiditate ex!</p>
+</body>
+</html>
