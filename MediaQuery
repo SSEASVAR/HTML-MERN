@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Media Query</title>
+</head>
+<style>
+    body{
+       color: crimson;
+    }
+    @media print{
+        body
+        {
+            color: aqua;
+        }
+    }
+    @media screen{
+        body{
+            background-color: crimson;
+        }
+    }
+    @media screen and (max-width:800px) {
+        body{
+            background-color: blue;
+        }
+    }
+    @media screen and (max-width:500px) {
+        body{
+            background-color: yellow;
+        }
+        
+    }
+</style>
+<body>
+      <h1>Welcome</h1>
+    
+</body>
+</html>
